@@ -1,5 +1,5 @@
 function convertCToF(celsius) {
-    return (celsius * 9) / 5 + 32;
+    return celsius + 30; // This is incorrect on purpose
 }
 if (typeof document !== "undefined") {
     const button = document.getElementById("convertBtn");
